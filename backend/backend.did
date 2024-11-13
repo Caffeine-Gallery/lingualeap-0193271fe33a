@@ -1,0 +1,8 @@
+service : {
+  getTranslations: () -> (vec record {
+                                text;
+                                text;
+                                text;
+                              }) query;
+  storeTranslation: (text, text, text) -> ();
+}
